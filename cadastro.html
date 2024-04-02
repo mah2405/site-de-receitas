@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="formatos.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="home.html">Home</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="receitas.html">Receitas <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cadastro.html">Cadastro</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <ody> 
+        <div class="container-fluid">
+            <h1>Cadastro de Usuário</h1>
+            <form action="processa_cadastro.php" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+        
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="CEP">CEP:</label>
+                <input type="CEP" id="CEP" name="CEP" required>
+
+                <label for="rua">rua:</label>
+                <input type="rua" id="rua" name="rua" required>
+
+                <label for="N°">N°:</label>
+                <input type="N°" id="N°" name="N°" required>
+
+                <label for="complemento">complemento:</label>
+                <input type="complemento" id="complemento" name="complemento">
+
+                <label for="cidade">cidade:</label>
+                <input type="cidade" id="cidade" name="cidade" required>
+
+                <label for="UF">UF:</label>
+                <input type="UF" id="UF" name="UF" required>
+
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" required>
+        
+                <input type="submit" value="Cadastrar">
+            </form>
+        </div>
+    </ody>
+</body>
+   
+<footer>
+    <!-- Área de rodapé -->
+    <p2>© 2024 Mah's. Todos os direitos reservados.</p2>
+</footer>
+    
